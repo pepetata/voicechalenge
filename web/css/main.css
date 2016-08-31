@@ -1,0 +1,37 @@
+input.inputReady, textarea  {
+    background-color : red !important; 
+}
+
+#logo {
+    width: 120px;
+    margin: 10px 5px 5px 20px;
+}
+
+#voco {
+    width: 120px;
+    margin: 0px 5px 5px 13px;
+}
+
+#titulo, #lista {
+    text-align: center;    
+    margin-top: 5px;
+
+}
+#listTable{
+    width: 90%;
+    margin-left: auto;
+    /*margin-right: 0%;*/
+}
+
+.body{
+    margin: 3% 10% 0% 0%; 
+}
+
+body{
+    margin-top: 10px;
+    width: 98%;
+}
+
+#nameForm {
+    margin: 20px 0 0 50px
+}
