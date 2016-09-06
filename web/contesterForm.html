@@ -38,17 +38,40 @@
                 </div>
             </div>
         </div>
-        <div id="nameForm" class="body">
-            <form id="fSaveName">
-                Nome:<br>
-                <input id="iname" type="text" name="name" size="50"><br><br>
-                Empresa:<br>
-                <input id="icompany" type="text" name="company" size="50"><br><br>
-                Telefone<br>
-                <input id="iphone" type="text" name="phone" size="20"><br><br><br><br>
-                <input id="flag" type="text" size="50" hidden >
-                <input type="submit" value="Gravar" onclick="readyToSaveName(event)">
-            </form>        </div>
-        <div class="footer"></div>
+        <div class="row">
+            <div class="col-md-5">
+                <div id="nameForm" class="body">
+                    <form id="fSaveName">
+                        Nome:<br>
+                        <input id="iname" type="text" name="name" size="40"><br><br>
+                        Empresa:<br>
+                        <input id="icompany" type="text" name="company" size="40"><br><br>
+                        Telefone<br>
+                        <input id="iphone" type="text" name="phone" size="20"><br><br><br><br>
+                        <input id="flag" type="text" size="30" hidden >
+                        <input type="submit" value="Gravar" onclick="readyToSaveName(event)">
+                    </form>        </div>
+                <div class="footer"></div>
+            </div>
+            <div class="col-md-7">
+                <textarea id="instrucoes" rows="16" cols="35" readonly placeholder="
+                INSTRUÇÕES
+                --------------------
+    - Colocar o equipamento de voz;
+    - Escanear seu crachá 
+        - aperte o botão do terminal de voz;
+    - Escute dizer: 
+        - Aguarde;
+        - Ao seu lugar;
+        - Prepare-se;
+        - Começando agora;
+    - Escute o endereço;
+    - Pegue a caixa correta;
+    - Posicione a etiqueta da caixa;
+    - Coloque a caixa de volta;
+                          "></textarea>
+            </div>
+
+        </div>
     </body>
 </html>
